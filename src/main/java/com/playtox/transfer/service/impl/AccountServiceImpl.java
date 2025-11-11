@@ -75,6 +75,7 @@ public class AccountServiceImpl implements AccountService {
 
     /**
      * Выполняет основную бизнес-логику перевода под блокировками.
+     *
      * @return true, если операция прошла; false, если не хватило средств.
      */
     private boolean executeTransferUnderLock(Account from, Account to, int amount) {

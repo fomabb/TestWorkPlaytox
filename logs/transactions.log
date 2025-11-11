@@ -1,0 +1,41 @@
+2025-11-11 16:29:13.987 [main] INFO  - Application starting...
+2025-11-11 16:29:14.195 [main] INFO  - Initialized 4 accounts with 10000 money each.
+2025-11-11 16:29:14.196 [main] INFO  - Starting 2 transfer threads...
+2025-11-11 16:29:14.214 [pool-2-thread-2] INFO  - Thread pool-2-thread-2 started.
+2025-11-11 16:29:14.214 [pool-2-thread-1] INFO  - Thread pool-2-thread-1 started.
+2025-11-11 16:29:14.214 [pool-2-thread-2] INFO  - SUCCESS transaction: Transferred 370 from 56847cdf-e51f-45a3-8968-0bb2b8f5995f to ff77c6d6-8f33-439c-8d03-eea6e62e5c1e. Balances: from=9630, to=10370
+2025-11-11 16:29:14.215 [pool-2-thread-1] INFO  - SUCCESS transaction: Transferred 3893 from 4227b776-9d72-4bda-8378-f96bbd9ec6ba to 56847cdf-e51f-45a3-8968-0bb2b8f5995f. Balances: from=6107, to=13523
+2025-11-11 16:29:16.122 [pool-2-thread-2] INFO  - SUCCESS transaction: Transferred 556 from 56847cdf-e51f-45a3-8968-0bb2b8f5995f to 4e47b910-d1e9-446e-ac75-a4fc1458b48c. Balances: from=12967, to=10556
+2025-11-11 16:29:16.197 [pool-2-thread-1] INFO  - SUCCESS transaction: Transferred 1091 from 4227b776-9d72-4bda-8378-f96bbd9ec6ba to ff77c6d6-8f33-439c-8d03-eea6e62e5c1e. Balances: from=5016, to=11461
+2025-11-11 16:29:17.528 [pool-2-thread-2] INFO  - SUCCESS transaction: Transferred 4275 from ff77c6d6-8f33-439c-8d03-eea6e62e5c1e to 56847cdf-e51f-45a3-8968-0bb2b8f5995f. Balances: from=7186, to=17242
+2025-11-11 16:29:17.993 [pool-2-thread-1] INFO  - SUCCESS transaction: Transferred 4417 from 4e47b910-d1e9-446e-ac75-a4fc1458b48c to ff77c6d6-8f33-439c-8d03-eea6e62e5c1e. Balances: from=6139, to=11603
+2025-11-11 16:29:19.511 [pool-2-thread-2] WARN  - Attempt to transfer money to the same account: 4e47b910-d1e9-446e-ac75-a4fc1458b48c. Transaction cancelled.
+2025-11-11 16:29:19.638 [pool-2-thread-1] INFO  - SUCCESS transaction: Transferred 4899 from 4e47b910-d1e9-446e-ac75-a4fc1458b48c to 56847cdf-e51f-45a3-8968-0bb2b8f5995f. Balances: from=1240, to=22141
+2025-11-11 16:29:21.049 [pool-2-thread-2] INFO  - SUCCESS transaction: Transferred 4329 from ff77c6d6-8f33-439c-8d03-eea6e62e5c1e to 56847cdf-e51f-45a3-8968-0bb2b8f5995f. Balances: from=7274, to=26470
+2025-11-11 16:29:21.225 [pool-2-thread-1] WARN  - Attempt to transfer money to the same account: 4227b776-9d72-4bda-8378-f96bbd9ec6ba. Transaction cancelled.
+2025-11-11 16:29:22.900 [pool-2-thread-1] WARN  - Attempt to transfer money to the same account: 56847cdf-e51f-45a3-8968-0bb2b8f5995f. Transaction cancelled.
+2025-11-11 16:29:22.932 [pool-2-thread-2] INFO  - SUCCESS transaction: Transferred 1401 from 4227b776-9d72-4bda-8378-f96bbd9ec6ba to 4e47b910-d1e9-446e-ac75-a4fc1458b48c. Balances: from=3615, to=2641
+2025-11-11 16:29:24.141 [pool-2-thread-2] INFO  - SUCCESS transaction: Transferred 1519 from 4e47b910-d1e9-446e-ac75-a4fc1458b48c to 56847cdf-e51f-45a3-8968-0bb2b8f5995f. Balances: from=1122, to=27989
+2025-11-11 16:29:24.837 [pool-2-thread-1] WARN  - Attempt to transfer money to the same account: 4e47b910-d1e9-446e-ac75-a4fc1458b48c. Transaction cancelled.
+2025-11-11 16:29:26.013 [pool-2-thread-2] INFO  - SUCCESS transaction: Transferred 732 from 56847cdf-e51f-45a3-8968-0bb2b8f5995f to 4e47b910-d1e9-446e-ac75-a4fc1458b48c. Balances: from=27257, to=1854
+2025-11-11 16:29:26.131 [pool-2-thread-1] INFO  - SUCCESS transaction: Transferred 4983 from 56847cdf-e51f-45a3-8968-0bb2b8f5995f to 4e47b910-d1e9-446e-ac75-a4fc1458b48c. Balances: from=22274, to=6837
+2025-11-11 16:29:27.060 [pool-2-thread-2] INFO  - SUCCESS transaction: Transferred 559 from 4227b776-9d72-4bda-8378-f96bbd9ec6ba to 4e47b910-d1e9-446e-ac75-a4fc1458b48c. Balances: from=3056, to=7396
+2025-11-11 16:29:27.926 [pool-2-thread-1] INFO  - SUCCESS transaction: Transferred 2529 from 4227b776-9d72-4bda-8378-f96bbd9ec6ba to ff77c6d6-8f33-439c-8d03-eea6e62e5c1e. Balances: from=527, to=9803
+2025-11-11 16:29:28.371 [pool-2-thread-2] ERROR - FAILED transaction: Not enough money on account 4227b776-9d72-4bda-8378-f96bbd9ec6ba. Required: 635, available: 527.
+2025-11-11 16:29:29.078 [pool-2-thread-1] INFO  - SUCCESS transaction: Transferred 2840 from ff77c6d6-8f33-439c-8d03-eea6e62e5c1e to 4227b776-9d72-4bda-8378-f96bbd9ec6ba. Balances: from=6963, to=3367
+2025-11-11 16:29:29.863 [pool-2-thread-2] INFO  - SUCCESS transaction: Transferred 2602 from ff77c6d6-8f33-439c-8d03-eea6e62e5c1e to 4227b776-9d72-4bda-8378-f96bbd9ec6ba. Balances: from=4361, to=5969
+2025-11-11 16:29:30.802 [pool-2-thread-1] WARN  - Attempt to transfer money to the same account: 4e47b910-d1e9-446e-ac75-a4fc1458b48c. Transaction cancelled.
+2025-11-11 16:29:31.029 [pool-2-thread-2] WARN  - Attempt to transfer money to the same account: 56847cdf-e51f-45a3-8968-0bb2b8f5995f. Transaction cancelled.
+2025-11-11 16:29:31.844 [pool-2-thread-1] INFO  - SUCCESS transaction: Transferred 4719 from 56847cdf-e51f-45a3-8968-0bb2b8f5995f to ff77c6d6-8f33-439c-8d03-eea6e62e5c1e. Balances: from=17555, to=9080
+2025-11-11 16:29:32.704 [pool-2-thread-2] INFO  - SUCCESS transaction: Transferred 2525 from 4227b776-9d72-4bda-8378-f96bbd9ec6ba to 56847cdf-e51f-45a3-8968-0bb2b8f5995f. Balances: from=3444, to=20080
+2025-11-11 16:29:32.883 [pool-2-thread-1] WARN  - Attempt to transfer money to the same account: 4227b776-9d72-4bda-8378-f96bbd9ec6ba. Transaction cancelled.
+2025-11-11 16:29:34.038 [pool-2-thread-2] INFO  - SUCCESS transaction: Transferred 460 from ff77c6d6-8f33-439c-8d03-eea6e62e5c1e to 4227b776-9d72-4bda-8378-f96bbd9ec6ba. Balances: from=8620, to=3904
+2025-11-11 16:29:34.429 [pool-2-thread-1] INFO  - SUCCESS transaction: Transferred 3158 from 56847cdf-e51f-45a3-8968-0bb2b8f5995f to ff77c6d6-8f33-439c-8d03-eea6e62e5c1e. Balances: from=16922, to=11778
+2025-11-11 16:29:35.518 [pool-2-thread-1] INFO  - SUCCESS transaction: Transferred 562 from 4227b776-9d72-4bda-8378-f96bbd9ec6ba to 56847cdf-e51f-45a3-8968-0bb2b8f5995f. Balances: from=3342, to=17484
+2025-11-11 16:29:36.036 [pool-2-thread-2] WARN  - Attempt to transfer money to the same account: 56847cdf-e51f-45a3-8968-0bb2b8f5995f. Transaction cancelled.
+2025-11-11 16:29:36.118 [main] INFO  - Maximum number of transactions (30) reached. Shutting down...
+2025-11-11 16:29:36.779 [pool-2-thread-1] INFO  - Thread pool-2-thread-1 finished its work.
+2025-11-11 16:29:37.625 [pool-2-thread-2] INFO  - Thread pool-2-thread-2 finished its work.
+2025-11-11 16:29:37.631 [main] INFO  - Final verification: Total money across all accounts: 40000. Initial total was: 40000
+2025-11-11 16:29:37.631 [main] INFO  - Data consistency check passed.
+2025-11-11 16:29:37.631 [main] INFO  - Application finished.
