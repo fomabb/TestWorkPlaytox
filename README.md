@@ -30,7 +30,7 @@
 
 1.  Склонируйте репозиторий:
     ```bash
-    git clone https://github.com/fomabb/Playtox.git
+    git clone https://github.com/fomabb/TestWorkPlaytox.git
     cd TestWorkPlaytox
     ```
 
@@ -44,7 +44,7 @@
 После успешной сборки приложение можно запустить из командной строки.
 
 ```bash
-java -jar target/account-transfer-app-1.0.0.jar
+java -jar target/TestWorkPlaytox-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
 Приложение начнет свою работу. Вы увидите логи в консоли в реальном времени. После выполнения 30 транзакций приложение автоматически завершится и выведет в консоль результат финальной проверки целостности данных.
